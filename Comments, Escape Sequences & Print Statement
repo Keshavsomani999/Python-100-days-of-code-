@@ -1,0 +1,17 @@
+'''
+this is multi line comment
+hey keshav, please remove this line
+Author:keshav
+Couese: python'''
+
+
+print("Hey I am a good boy\nand this viewer is also a good boy/girl")
+
+
+print("Hey I am a \"good boy\"\nand this viewer is also a good boy/girl")
+
+print("hey",6,7)
+print("hey",6,7 , sep="-",end="009\n")
+
+
+print("hello") #This is a Single line comment
