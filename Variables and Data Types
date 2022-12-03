@@ -1,0 +1,52 @@
+Output:-
+
+1234787666
+Keshav
+1234787675.9
+this type of a is  <class 'int'>
+this type of a is  <class 'float'>
+this type of a is  <class 'str'>
+this type of a is  <class 'bool'>
+this type of a is  <class 'NoneType'>
+[8, 2.3, [-4, 5], ['apple', 'banana']]
+(('parrot', 'sparrow'), ('lion', 'Tiger'))
+{'name': 'sakshi', 'age': 40, 'canVote': True}
+
+
+
+
+
+# Program
+
+a=1234787666
+a1=9.9
+b="Keshav"
+c=True
+d = None
+print(a)
+
+
+print(b)
+
+# print(a+b) # Wrong syntax
+print(a+a1)
+
+print("this type of a is ", type(a))
+print("this type of a is ", type(a1))
+print("this type of a is ", type(b))
+print("this type of a is ", type(c))
+print("this type of a is ", type(d))
+
+
+list = [8,2.3,[-4,5],["apple","banana"]]
+
+print(list)
+
+
+tuple = (("parrot","sparrow"),("lion","Tiger"))
+print(tuple)
+
+
+dict = {"name":"sakshi","age":40,"canVote":True}
+
+print(dict)
