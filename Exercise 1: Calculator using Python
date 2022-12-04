@@ -1,0 +1,27 @@
+Output :- 
+Addition of Num1 & Num 2 =  58
+Subtraction of Num1 & Num 2 =  42
+Multiplication of Num1 & Num 2 =  400
+Division of Num1 & Num 2 =  6.25
+Floor division  of Num1 & Num 2 =  6
+
+
+
+
+num1 = 50
+num2 = 8
+
+sum1 = num1+num2
+print("Addition of Num1 & Num 2 = " , sum1)
+
+sum2 = num1-num2
+print("Subtraction of Num1 & Num 2 = ",sum2)
+
+sum3 = num1*num2
+print("Multiplication of Num1 & Num 2 = ",sum3)
+
+sum4 = num1/num2
+print("Division of Num1 & Num 2 = ",sum4)
+
+sum5 = num1//num2
+print("Floor division  of Num1 & Num 2 = ",sum5)
