@@ -1,0 +1,31 @@
+import os
+
+if(not os.path.exists("data")):
+    os.mkdir("data")
+
+
+
+
+for i in range(0,100):
+    os.mkdir(f"data/Day{i+1}")
+    
+ 
+    
+import os
+
+folders = os.listdir("data")
+# a = input("Enter  file name to search :  ")
+
+print(os.getcwd())
+
+for fol in folders:
+    
+    print(os.listdir(f"data/{fol}"))
+    
+
+
+# file to rename file name
+ import os
+
+for i in range(0,100):   #make 100 folder in less than 1s
+    os.rename(f"data/Tutorial{i+1}",f"data/Tutorial  {i+1}")
